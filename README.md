@@ -1,5 +1,6 @@
 
 
+![Imagem Data H](https://github.com/nathanaelduque/DesafioDataH-/blob/main/Images/datah.jpeg)
 <h1 align="center"> Desafio Data H </h1>
 
  
@@ -18,3 +19,11 @@ Um famoso casino de repente enfrenta um grande declínio de sua receita. Então 
 
 ## Pré-requisitos e dicas 
 
+Os pré-requisitos dados são que:
+
+* O código deve ser todo escrito em Python 
+* Deverá ser criado um programa chamado PokerHand para representar uma mão de Poker
+* PokerHand deverá ter um construtor que aceite uma string contendo 5 cartas 
+* O digito espaço devera ser usado para separar cada carta.
+* Cada Carta deverá consistir de dois caractere, um deles sendo o primeiro o valor  da carta e o segundo o naipe da carta. *Exemplo de Mão:* *PokerHand("KS* *2H* *5C* *JD* *TD")*
+* Fale do teste que tem que ser feito 

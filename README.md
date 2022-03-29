@@ -1,12 +1,16 @@
 
+
 <h1 align="center"> Desafio Data H </h1>
 
  
 <p align="center"> Desafio proposto pela Data H, que consiste em compararmos duas mãos de um jogo de pôquer e dizer qual jogador vence </p>
 
-Nesse desafio trataremos de temas tais como:
+Esse arquivo aborda temas tais como:
+ * Contexto 
+ * Pré-requisitos e dicas
+ * Como implementar 
 
-
+*Além disso, em caso de dúvida,também existem arquivos README.MD dentro de cada pasta explicando a lógica utilizada em cada uma das etapas correspondentes*
 
 ## Contexto 
 

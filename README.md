@@ -7,10 +7,10 @@
 <p align="center"> Desafio proposto pela Data H, que consiste em compararmos duas mãos de um jogo de pôquer e dizer qual jogador vence </p>
 
 Esse arquivo aborda temas tais como:
- * Contexto;
- * Pré-requisitos;
- * Dicas
- * Como executar.
+ * [Contexto](https://github.com/nathanaelduque/DesafioDataH-#contexto);
+ * [Pré-requisitos](https://github.com/nathanaelduque/DesafioDataH-/edit/main/README.md#pr%C3%A9-requisitos);
+ * [Dicas](https://github.com/nathanaelduque/DesafioDataH-/edit/main/README.md#pr%C3%A9-requisitos);
+ * [Como executar](https://github.com/nathanaelduque/DesafioDataH-/edit/main/README.md#pr%C3%A9-requisitos).
 
 *Além disso, em caso de dúvida,também existem arquivos README.MD dentro de cada pasta explicando a lógica utilizada em cada uma das etapas correspondentes*
 

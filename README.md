@@ -100,4 +100,17 @@ Um exemplo da utilização desse princípio no código é também a função de 
  2.  Abstrações não devem depender de detalhes, mas detalhes devem depender de abstrações.
  
  Depender de Abstrações reduzem a necessidade de classes dependerem umas das outras, reduzem a necessidade de modificá-las e facilita o reuso.
+ 
+ ### Utilizar TDD(Test-Driven Development)
+ 
+ A função teste que se encontra no códifo acima utiliza de Test-Driven Development, dentro dessa função existem todos os testes que devem ser feitos antes do código ser dito funcional. 
+ 
+ ### Utilizar Mixix 
+ 
+ A definição de Mixin é dada por: *Um mixin é uma classe que contém métodos para utilização por outras classes sem ter que ser a classe principal das referidas outras classes*
+ 
+ No trabalho, tem-se a classe *compare*, que é utillizada pela classe Pokerhand para comparar uma mão com a outra, essa classe herda somente *untie*( classe utilizada em caso de empate), além disso, PokerHand também importa a classe *punctuation*, sendo essa classe a principal 
+ 
+ 
+ 
 

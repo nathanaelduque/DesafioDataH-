@@ -1,8 +1,8 @@
-# O codigo naturalmente ja vai dar uma pontuaçao maior para um straight flush
+# O codigo naturalmente ja vai dar uma pontuaÃ§ao maior para um straight flush
 # mas tem que ver o royal flush 
 
 from collections import Counter
-from classes.compare_hands import punctuation,compare
+from scripts.compare_hands import punctuation,compare
 
 
 
@@ -18,12 +18,12 @@ class PokerHand(compare,punctuation):
         
         self.points=0
         
-#Vai dividir a mao em 5 cartas usando o caractere "espaço" como separador
+#Vai dividir a mao em 5 cartas usando o caractere "espaÃ§o" como separador
         self.cards=Hand.split(" ")
         
 
-# Vai criar uma lista de tamanho = 2 para cada carta, a posiçao 0 dessa lista
-# Contera o valor numerico da carta, a posiçao 1, o tipo da carta 
+# Vai criar uma lista de tamanho = 2 para cada carta, a posiÃ§ao 0 dessa lista
+# Contera o valor numerico da carta, a posiÃ§ao 1, o tipo da carta 
 
 #Ex: 2H(dois de copas) --> [2,H]
 
@@ -35,7 +35,7 @@ class PokerHand(compare,punctuation):
             self.sep_characters.append(sep_card)
             
 # Nessa parte,e ele ira reconhecer o primeiro digito da seguinte maneira:
-# Se for numerico (funçao isdigit()),mantem como estah 
+# Se for numerico (funÃ§ao isdigit()),mantem como estah 
 # se for uma letra, substitui pelo seu correpondente numerico 
 #Ex: TH -- > [10,H]
 
@@ -57,7 +57,7 @@ class PokerHand(compare,punctuation):
                     self.sep_characters[i][0]=14
 
 # Criamos uma lista com todos os primeiros caracteres de todas as cartas 
-# Esses caracteres correspondem aos números e serao usados para determinar
+# Esses caracteres correspondem aos nÃºmeros e serao usados para determinar
 # se eh flush, _ of a kind, full house ou mesmo high card
 
         self.first_characters=list() 
@@ -67,7 +67,7 @@ class PokerHand(compare,punctuation):
 
  # Criamos a variavel equals, que vai nos retornar um dicionario contando
  # quantos primeiros caracteres iguais tem em cada mao, foi colocada aqui para 
- # evitar desperdi­cio de custo computacional, ja que sera usada pelas classes 
+ # evitar desperdiÂ­cio de custo computacional, ja que sera usada pelas classes 
  # four_kind, full_house, three_kind, two_pair, 
  # one_pair e high_card     
         

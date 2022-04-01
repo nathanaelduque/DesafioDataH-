@@ -12,7 +12,7 @@ Esse arquivo aborda temas tais como:
  * [Dicas](https://github.com/nathanaelduque/DesafioDataH-/edit/main/README.md#pr%C3%A9-requisitos);
  * [Como executar](https://github.com/nathanaelduque/DesafioDataH-/edit/main/README.md#pr%C3%A9-requisitos).
 
-*Além disso, em caso de dúvida,também existem arquivos README.MD dentro de cada pasta explicando a lógica utilizada em cada uma das etapas correspondentes*
+*Além disso, em caso de dúvida,também existem arquivos "README.MD - Observações importantes" dentro da pasta script explicando a lógica utilizada nas etapas de pontuação, diferenciação das mãos e critério de desempate utilizado*
 
 ## Contexto 
 
@@ -65,7 +65,7 @@ Nesse código foi utilizado programação orientada a objeto e os principios de 
 
  Resumidamente, o "Princípio da Responsabilidade Única" dita que cada classe deve ter somente uma responsabilidade dentro do código e cada responsabilidade deve ser uma classe.Isso evita que criemos uma classe com várias ou até mesmo todas as funções do código, trazendo assim complexidade e baixa eficácia ao código.
 
- No projeto, foi criado um construtor, uma classe para pontuar cada um dos tipos de mão de poker, uma classe responsável por contabilizar os pontos de cada jogador, uma para comparar as mão e dier qual vence, e por fim, outra que implementa os critérios de desempate , caso dois jogadores possuam o mesm tipo de mão ( como o critério de desempate é o mesmo para todas as mãos, não houve necessidade de criarmos uma classe diferente para cada tipo de desempate. A figura a seguir mostra alguas classes bem separadas e definidas dento do código.
+ No projeto, foi criado um construtor, uma classe para pontuar cada um dos tipos de mão de poker, uma classe responsável por contabilizar os pontos de cada jogador, uma para comparar as mão e dier qual vence, e por fim, outra que implementa os critérios de desempate , caso dois jogadores possuam o mesm tipo de mão ( como o critério de desempate é o mesmo para todas as mãos, não houve necessidade de criarmos uma classe diferente para cada tipo de desempate.
 
 
 #### O: Open Closed Principle 

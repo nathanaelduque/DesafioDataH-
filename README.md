@@ -84,10 +84,14 @@ Nesse código foi utilizado programação orientada a objeto e os principios de 
 
 #### L: Liskov Substitution Principle
  O Princípio da Substituição de Liskov diz que *Se para cada objeto o1 do tipo S há um objeto o2 do tipo T de forma que, para todos os programas P definidos em termos de T, o comportamento de P é inalterado quando o1 é substituído por o2 então S é um subtipo de T*. Em termos práticos isso significa que, deve ser possível substituir uma instância de uma superclasse com uma instância de uma subclasse sem causar erros no código. Esse princípio garante maior flexibilidade ao código.
+ 
  No trabalho, foi criada uma classe *score* utilizada para contabilizar a pontuação das mãos dos jogadores, todas as classes relacionadas a checar se um jogador possui determinado tip de mão herdam a classe *score* e conseguem utilizá-la para a atualização da pontuação do jogador, indeéndente do tipo de mão que ele possua.
 
 #### I: Interface Segregation Principle 
 
+O Princípio de Segregação da Interface diz que uma classe não deve ser forçada a implementar métodos e interfaces que não irá utilizar, dessa maneira evita-se que o código tenha desperdício computacional. 
+
+Um exemplo da utilização desse princípio no código é também a função de desempate, o código somente irá entrar nesse método quando os dois jogadores tiverem o mesmo tipo de mão, caso um jogador tenha  uma mão mais forte que a outra, não há necessidade de implementar um critério de desempate, evitando assim, desperdício computacional. 
 
 #### D: Dependency Invertion Principle
 

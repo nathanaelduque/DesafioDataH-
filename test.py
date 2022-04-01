@@ -1,5 +1,5 @@
-from classes.check_PokerHand import PokerHand
-from classes.DefResult import Result
+from scripts.check_PokerHand import PokerHand
+from scripts.DefResult import Result
 import unittest
 
 

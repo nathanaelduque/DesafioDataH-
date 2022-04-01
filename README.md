@@ -95,4 +95,9 @@ Um exemplo da utilização desse princípio no código é também a função de 
 
 #### D: Dependency Invertion Principle
 
+ O Pricípio da Inversão de dependencia pssui duas definições: 
+ 1.  Módulos de alto nível não devem depender de módulos de baixo nível e ambos devem depender de abstrações
+ 2.  Abstrações não devem depender de detalhes, mas detalhes devem depender de abstrações.
+ 
+ Depender de Abstrações reduzem a necessidade de classes dependerem umas das outras, reduzem a necessidade de modificá-las e facilita o reuso.
 

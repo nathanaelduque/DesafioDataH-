@@ -28,12 +28,6 @@ Os pré-requisitos dados são que:
 * O digito espaço devera ser usado para separar cada carta.
 * Cada Carta deverá consistir de dois caracteres, um deles sendo o primeiro o valor  da carta e o segundo o naipe da carta.A tabela 01 apresenta os códigos do primeiro caractere(referente ao valor), já a tabela 02 apresenta os códigos do segundo caractere(referente ao naipe de cada carta.
 
-
-
-
-
-
-
 <div align="center">
 
  Tabela 01: Códigos do primeiro caractere de cada carta 
@@ -105,11 +99,16 @@ Um exemplo da utilização desse princípio no código é também a função de 
  
  A função teste que se encontra no códifo acima utiliza de Test-Driven Development, dentro dessa função existem todos os testes que devem ser feitos antes do código ser dito funcional. 
  
+ 
+ ### Utilizar Design Patterns 
+ 
+ O único que houve a necessidade de ser utilizado foi o construtor, representado pelo *__init__()*, ele foi utilizado para que o código pudesse ler as mãos de cada jogador, além de tmabém criar algumas variáveis utilizadas determinar qual tipo de mão tinha na mão de cada jogador.
+ 
  ### Utilizar Mixix 
  
  A definição de Mixin é dada por: *Um mixin é uma classe que contém métodos para utilização por outras classes sem ter que ser a classe principal das referidas outras classes*
  
- No trabalho, tem-se a classe *compare*, que é utillizada pela classe Pokerhand para comparar uma mão com a outra, essa classe herda somente *untie*( classe utilizada em caso de empate), além disso, PokerHand também importa a classe *punctuation*, sendo essa classe a principal 
+ No trabalho, tem-se a classe *compare*, que é utilizada pela classe Pokerhand para comparar uma mão com a outra, essa classe herda somente *untie*( classe utilizada em caso de empate), porém *untie* não é a classe final de PokerHand.Dentro de PokerHand também existe a classe *punctuation*, que vai pontuar a mão de cada jogador, sozinha, a classe *compare*,não faria muito sentido, ela necessita ser combinada com essa classe punctuation para poder fazer sentido. Logo, nesse exemplo *compare* é o Mixin. 
  
  
  

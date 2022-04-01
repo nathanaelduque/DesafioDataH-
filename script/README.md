@@ -2,7 +2,39 @@
 
 ## Pontuação de cada mão
 
-A tabela a seguir descreve a pontuação dada para cada tipo de mão do jogo de poker 
+A tabela a seguir descreve a pontuação dada para cada tipo de mão do jogo de poker
+
+
+<div align="center">
+
+
+  | Tipo de Mão | Pontuação |  
+ | ------------------- | ------------------- | 
+ | High Card   |  Digito Correspondente | 
+ | ------------------- | ------------------- | 
+ | One Pair  |  15 | 
+ | ------------------- | ------------------- | 
+ | Two Pair |  20 |
+ | ------------------- | ------------------- | 
+ | Three of a Kind  |  25 | 
+ | ------------------- | ------------------- |
+ | Straight  |  30 | 
+ | ------------------- | ------------------- | 
+ | Flush  |  40 |
+ | ------------------- | ------------------- | 
+ | Full House  |  50 |
+ | ------------------- | ------------------- |
+ | Four of a Kind  |  55 | 
+ | ------------------- | ------------------- |
+ | Straight Flush |  80 |  
+ | ------------------- | ------------------- |
+ | Royal Straight Flush |  80 |  
+  
+ </div>
+ 
+
+
+
 
 ## Diferenciação de cada mão
 

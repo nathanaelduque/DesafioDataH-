@@ -26,18 +26,31 @@ Os pré-requisitos dados são que:
 * Deverá ser criado um programa chamado PokerHand para representar uma mão de Poker
 * PokerHand deverá ter um construtor que aceite uma string contendo 5 cartas 
 * O digito espaço devera ser usado para separar cada carta.
-* Cada Carta deverá consistir de dois caracteres, um deles sendo o primeiro o valor  da carta e o segundo o naipe da carta.A tabela 01 apresenta os códigos do primeiro caractere(referente ao valor), já a tabela 02 apresenta os códigos do segundo caractere(referente ao naipe de cada carta
+* Cada Carta deverá consistir de dois caracteres, um deles sendo o primeiro o valor  da carta e o segundo o naipe da carta.A tabela 01 apresenta os códigos do primeiro caractere(referente ao valor), já a tabela 02 apresenta os códigos do segundo caractere(referente ao naipe de cada carta.
+
+
+
+
+
+
+
+<div align="center">
 
  Tabela 01: Códigos do primeiro caractere de cada carta 
   | 1-9  | T  | Q | K | A |  
  | ------------------- | ------------------- | ------------------- | ------------------- | ------------------- | 
   |  Digito Correspondente |  10 | 11 | 12 | 13 | 
+ 
+ </div>
+ 
+<div align="center">
 
 Tabela 02: Codigos do segundo caractere de cada carta 
 | S  | H  | D | C |
 | ------------------- | ------------------- | ------------------- | ------------------- |
 |  Espadas  |  Copas | Ouro | Paus |
-
+ </div>
+ 
 *Ex: Pokerhand("KS 2H 5C JD TD") corresponde a uma mão com um 13 de Espadas, 2 de Copas, 5 de Paus , 11 de Ouro e 10 de Ouro*
 
 * O programa deverá ter a função *compare_with*, que deverá comparar duas mãos de poker e retornar um enumerado com os resulados: WIN ou LOSS

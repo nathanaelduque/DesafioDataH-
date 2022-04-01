@@ -10,7 +10,7 @@ Esse arquivo aborda temas tais como:
  * Contexto;
  * Pré-requisitos;
  * Dicas
- * Como implementar.
+ * Como executar.
 
 *Além disso, em caso de dúvida,também existem arquivos README.MD dentro de cada pasta explicando a lógica utilizada em cada uma das etapas correspondentes*
 
@@ -110,6 +110,12 @@ Um exemplo da utilização desse princípio no código é também a função de 
  
  No trabalho, tem-se a classe *compare*, que é utilizada pela classe Pokerhand para comparar uma mão com a outra, essa classe herda somente *untie*( classe utilizada em caso de empate), porém *untie* não é a classe final de PokerHand.Dentro de PokerHand também existe a classe *punctuation*, que vai pontuar a mão de cada jogador, sozinha, a classe *compare*,não faria muito sentido, ela necessita ser combinada com essa classe punctuation para poder fazer sentido. Logo, nesse exemplo *compare* é o Mixin. 
  
- 
+ ## Como executar
+ Para executar o código, abra seu o terminal do seu PC ou o seu Anaconda Prompt e digite:
+
+ ```python
+python/python2/python3 test.py
+```
+
  
 

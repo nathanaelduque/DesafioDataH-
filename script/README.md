@@ -64,6 +64,10 @@ O critério de desempate  foi retirado do site da [Pokerstars](https://www.poker
 
 Pode-se utilizar a seguinte mão como exemplo:
 
-Jogador 01: T♥ T♠ 5♣ 5♥  K♦
+Jogador 01: T♥ T♠ 5♣ 5♥  K♦ , Two Pair, Pontos Jogador 01(sem considerar o critério de desempate)=20
 
-Jogador 02: T♦ T♣ 5♠ 5♦  A♦
+Jogador 02: T♦ T♣ 5♠ 5♦  A♦ , Two Pair, Pontos Jogador 02(sem considerar o critério de desempate)=20
+
+**Primeiramente,  critério de desempate irá olhar a carta mais alta de cada Two Pair, como os dois são 10, temos:**
+Pontos Jogador 01 = 20,10
+Pontos Jogador 02 = 20,10

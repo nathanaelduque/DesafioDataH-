@@ -68,6 +68,30 @@ Jogador 01: T♥ T♠ 5♣ 5♥  K♦ , Two Pair, Pontos Jogador 01(sem consider
 
 Jogador 02: T♦ T♣ 5♠ 5♦  A♦ , Two Pair, Pontos Jogador 02(sem considerar o critério de desempate)=20
 
-**Primeiramente,  critério de desempate irá olhar a carta mais alta de cada Two Pair, como os dois são 10, temos:**
+### Primeiramente,  critério de desempate irá olhar a carta mais alta de cada Two Pair, como os dois são 10, temos:
+
 Pontos Jogador 01 = 20,10
+
 Pontos Jogador 02 = 20,10
+
+Se por acaso os Pontos de um jogador fosse maior que do outro, o código pararia aqui.
+
+O valor 10 então sai da lista que guarda o maior valor das mais contadas, para que o critério de desempate avance para o próximo número (que no caso é o 5)
+
+### Na segunda vez, o critério de desempate irá olhar a segunda carta mais alta de cada Two Pair, como os dois são 5, teremos:
+
+Pontos Jogador 01 = 20,15
+
+Pontos Jogador 02 = 20,15
+
+Se por acaso os Pontos de um jogador fosse maior que do outro, o código pararia aqui.
+
+O valor 5 sai então da lista que guarda o maior valor das mais contadas, a lista fica vazia e é excluida do dicionário que revela quais cartas foram as mais contadas(*counts_dict*), isso acontece para que, da próxima vez que o critério de desempate acontecer, o algortimo compare as cartas que forem contadas somente uma vez.
+
+### Na última vez, teremos que o critério de desempate irá comparar as cartas contadas somente uma vez,nesse caso, tem-se:
+
+Pontos Jogador 01 = 20,28
+
+Pontos Jogador 02 = 20,29
+
+### O código retorna que Jogador 02 vence!**

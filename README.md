@@ -9,8 +9,8 @@
 Esse arquivo aborda temas tais como:
  * [Contexto](https://github.com/nathanaelduque/DesafioDataH-#contexto);
  * [Pré-requisitos](https://github.com/nathanaelduque/DesafioDataH-#pr%C3%A9-requisitos);
- * [Dicas](https://github.com/nathanaelduque/DesafioDataH-/edit/main/README.md#pr%C3%A9-requisitos);
- * [Como executar](https://github.com/nathanaelduque/DesafioDataH-/edit/main/README.md#pr%C3%A9-requisitos).
+ * [Dicas](https://github.com/nathanaelduque/DesafioDataH-#dicas);
+ * [Como executar](https://github.com/nathanaelduque/DesafioDataH-#como-executar).
 
 *Além disso, em caso de dúvida,também existem arquivos "README.MD - Observações importantes" dentro da pasta script explicando a lógica utilizada nas etapas de pontuação, diferenciação das mãos e critério de desempate utilizado*
 

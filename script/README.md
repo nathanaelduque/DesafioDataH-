@@ -2,7 +2,7 @@
 
 Esse arquivo aborda os seguintes temas:
  * [Diferenciação de cada mão](https://github.com/nathanaelduque/DesafioDataH-/blob/main/script/README.md#diferencia%C3%A7%C3%A3o-de-cada-m%C3%A3o);
- * [Pontuação de cada mão](https://github.com/nathanaelduque/DesafioDataH-/edit/main/script/README.md#pontua%C3%A7%C3%A3o-de-cada-m%C3%A3o);
+ * [Pontuação de cada mão](https://github.com/nathanaelduque/DesafioDataH-/blob/main/script/README.md#pontua%C3%A7%C3%A3o-de-cada-m%C3%A3o);
  * [Critério de desempate](https://github.com/nathanaelduque/DesafioDataH-/edit/main/script/README.md#crit%C3%A9rio-de-desempate);
 
 ## Diferenciação de cada mão

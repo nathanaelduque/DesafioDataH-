@@ -37,9 +37,26 @@ todas as cartas de uma mão tem o mesmo naipe. o mesmo aconteceu para o straight
 as duas váriaveis são true, tem-se um straight flush, a partir disso, o código checa se o maior número na mão do jogador corresponde ao A(14), se sim,
 tem-se um straight royal flush.
 
-![Tipo de mão  01](https://github.com/nathanaelduque/DesafioDataH-/blob/main/Images/Pokerhand01.png)
-![Tipo de mão  02](https://github.com/nathanaelduque/DesafioDataH-/blob/main/Images/Pokerhand2.png)
-![Tipo de mão  03](https://github.com/nathanaelduque/DesafioDataH-/blob/main/Images/Pokerhand03.png)
+
+<p align="center">
+
+  <img width="800" src="https://github.com/nathanaelduque/DesafioDataH-/blob/main/Images/Pokerhand01.png" alt="Tipo de mão  01">
+  
+</p>
+
+
+<p align="center">
+
+  <img width="800" src="https://github.com/nathanaelduque/DesafioDataH-/blob/main/Images/Pokerhand2.png" alt="Tipo de mão  02">
+  
+</p>
+
+<p align="center">
+
+  <img width="800" src="https://github.com/nathanaelduque/DesafioDataH-/blob/main/Images/Pokerhand03.png" alt="Tipo de mão  03">
+  
+</p>
+
 
 ## Critério de desempate
 

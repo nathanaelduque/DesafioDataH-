@@ -60,3 +60,4 @@ tem-se um straight royal flush.
 
 ## Critério de desempate
 
+O critério de desempate  foi retirado do site da [Pokerstars](https://www.pokerstars.com/pt-BR/poker/games/rules/hand-rankings/?no_redirect=1#:~:text=No%20caso%20de%20um%20empate%3A%20O%20jogador%20com%20a%20carta,crit%C3%A9rio%20de%20desempate%20no%20poker.), segundo o mesmo a regra é: vê-se qual o maior valor 

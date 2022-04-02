@@ -1,31 +1,9 @@
 # Observações Importantes 
 
-## Pontuação de cada mão
-
-A tabela a seguir descreve a pontuação dada para cada tipo de mão do jogo de poker
-
-
-<div align="center">
-
-
-  | Tipo de Mão | Pontuação |  
- | ------------------- | ------------------- | 
- | High Card   |  Digito Correspondente | 
- | One Pair  |  15 | 
- | Two Pair |  20 |
- | Three of a Kind  |  25 | 
- | Straight  |  30 | 
- | Flush  |  40 |
- | Full House  |  50 |
- | Four of a Kind  |  55 | 
- | Straight Flush |  80 |  
- | Royal Straight Flush |  100 |  
-  
- </div>
- 
-
-
-
+Esse arquivo aborda os seguintes temas:
+ * [Diferenciação de cada mão](https://github.com/nathanaelduque/DesafioDataH-/edit/main/script/README.md#diferencia%C3%A7%C3%A3o-de-cada-m%C3%A3o);
+ * [Pontuação de cada mão](https://github.com/nathanaelduque/DesafioDataH-/edit/main/script/README.md#pontua%C3%A7%C3%A3o-de-cada-m%C3%A3o);
+ * [Critério de desempate](https://github.com/nathanaelduque/DesafioDataH-/edit/main/script/README.md#crit%C3%A9rio-de-desempate);
 
 ## Diferenciação de cada mão
 
@@ -56,6 +34,35 @@ tem-se um straight royal flush.
   <img width="800" src="https://github.com/nathanaelduque/DesafioDataH-/blob/main/Images/Pokerhand03.png" alt="Tipo de mão  03">
   
 </p>
+
+
+
+
+## Pontuação de cada mão
+
+A tabela a seguir descreve a pontuação dada para cada tipo de mão do jogo de poker
+
+
+<div align="center">
+
+
+  | Tipo de Mão | Pontuação |  
+ | ------------------- | ------------------- | 
+ | High Card   |  Digito Correspondente | 
+ | One Pair  |  15 | 
+ | Two Pair |  20 |
+ | Three of a Kind  |  25 | 
+ | Straight  |  30 | 
+ | Flush  |  40 |
+ | Full House  |  50 |
+ | Four of a Kind  |  55 | 
+ | Straight Flush |  80 |  
+ | Royal Straight Flush |  100 |  
+  
+ </div>
+ 
+
+
 
 
 ## Critério de desempate

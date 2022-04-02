@@ -29,15 +29,17 @@ A tabela a seguir descreve a pontuação dada para cada tipo de mão do jogo de 
 
 ## Diferenciação de cada mão
 
-A imagem a seguir mostra o número de clusters que vai ter em cada tipo de mão e o maior número de vezes em que determinada carta foi contada, a partir 
-desse número de cluster, vê-se o tamanho do dicionário *equals*, e o numero máximo do dicionário *count_dict*, e, a partir dessas duas variáveis(*len(equals) e max(count_dict)*
-consegue-se diferenciar cada tipo de mão. 
+As imagens a seguir mostram o número de clusters que vai ter em cada tipo de mão e o maior número de vezes em que determinada carta foi contada, no código, o número de clusters é dado pelo tamanho do dicionário *equals*, e o maior número de vezes em que determinada carta é contada é dado pelo numero máximo do dicionário *count_dict*.A partir dessas duas variáveis(*len(equals) e max(count_dict)* consegue-se diferenciar cada tipo de mão. 
 
 
 Adicionalmente, para diferenciar um flush, foi implementada uma lógica que verifica se o todos os naipes de 
 todas as cartas de uma mão tem o mesmo naipe. o mesmo aconteceu para o straight, cada um possui uma variável booleana *is_flush* e *is_straight*, quando 
 as duas váriaveis são true, tem-se um straight flush, a partir disso, o código checa se o maior número na mão do jogador corresponde ao A(14), se sim,
 tem-se um straight royal flush.
+
+![Tipo de mão  01](https://github.com/nathanaelduque/DesafioDataH-/blob/main/Images/Pokerhand01.png)
+![Tipo de mão  02](https://github.com/nathanaelduque/DesafioDataH-/blob/main/Images/Pokerhand2.png)
+![Tipo de mão  03](https://github.com/nathanaelduque/DesafioDataH-/blob/main/Images/Pokerhand03.png)
 
 ## Critério de desempate
 
